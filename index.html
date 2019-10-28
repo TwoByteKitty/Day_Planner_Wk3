@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/0889c1da77.js" crossorigin="anonymous"></script>
+
+    <title>Day Planner</title>
+</head>
+
+<body>
+    <header>
+        <div class="row text-center mb-2">
+            <div class="col">
+                <h1 class="display-2">
+                    Day Planner
+                </h1>
+                <p class="lead">Utilize this simple workday planner to make the best use of your time.</p>
+                <div class="" style="font-weight: bold;" id="dateDiv">Day, Month 00, Year</div>
+                <hr style="border-width: 4px;">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupNineA">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&nbsp;&nbsp;9:00 AM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="9-am"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveNine"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupTenA">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">10:00 AM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="10-am"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveTen"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupElevenA">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="timeEleven">11:00 AM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="11-am"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveEleven"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupNoon">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">12:00 PM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="12-pm"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveNoon"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupOneP">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&nbsp;&nbsp;1:00 PM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="1-pm"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveOne"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupTwoP">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&nbsp;&nbsp;2:00 PM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="2-pm"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveTwo"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupThreeP">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&nbsp;&nbsp;3:00 PM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="3-pm"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveThree"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupFourP">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&nbsp;&nbsp;4:00 PM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="4-pm"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveFour"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="input-group input-group-lg mb-0 hourCh" id="groupFiveP">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">&nbsp;&nbsp;5:00 PM</span>
+                        </div>
+                        <textarea class="form-control" aria-label="calendar input" style="border-width: 2px;" id="5-pm"></textarea>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-info" type="button" id="btnSaveFive"><i
+                                    class="far fa-save"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="m-3">&nbsp;&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
